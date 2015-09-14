@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen" title="no title" charset="utf-8"> -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css"></link>
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places</title>
+  </head>
+  <body>
+    <h1> Places.Js</h1>
+    <div class="places-form">
+      <form id="places-form">
+        <input type="text" class="form-control" id="location" placeholder="Location">
+        <input type="date" class="form-control" id="date" placeholder="Date">
+        <input type="text" class="form-control" id="notes" placeholder="Notes">
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </div>
+
+    <ul id="places-list">
+
+    </ul>
+
+    <div class="show-place">
+      <form id="output-labels">
+        <label id="name">Name: <span id="span-location"></span></label><br>
+        <label id="date">Date: <span id="span-date"></span></label><br>
+        <label id="notes">Notes: <span id="span-notes"></span></label><br>
+      </form>
+    </div>
+  </body>
+</html>
